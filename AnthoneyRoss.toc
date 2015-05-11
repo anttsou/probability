@@ -1,27 +1,27 @@
-\contentsline {chapter}{\numberline {1}Hypothesis Testing}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Z-tests}{4}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Null and Alternative Hypotheses}{4}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Significance Levels}{5}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Test Statistics}{7}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}One-sided versus Two-sided tests}{9}{subsection.1.1.4}
-\contentsline {section}{\numberline {1.2}On $p$-values}{12}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Extraordinary Claims and $p$-values}{12}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Large $p$-values}{13}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Misconceptions about $p$-values}{13}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}On $t$-tests}{15}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Estimating the Sample Variance}{16}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}From $z$-tests to $t$-tests}{16}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Problems with Hypothesis Testing}{19}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Type I errors}{19}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Type II errors}{20}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Error Rates and the Justice System}{20}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Chi-square Distributions, Goodness of fit}{22}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Chi-Square distributions and tests of Variance}{22}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Chi-square distributions and $t$-distributions}{25}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Goodness of Fit for List Data}{26}{subsection.1.5.3}
-\contentsline {section}{\numberline {1.6}Two sample tests}{28}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Two sample $z$-test: known variances}{28}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Two sample $t$-test: unknown but same variances}{31}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Unknown and Different Variances}{32}{subsection.1.6.3}
-\contentsline {section}{\numberline {1.7}Summary}{34}{section.1.7}
-\contentsline {section}{\numberline {1.8}Additional Problems}{35}{section.1.8}
+\contentsline {chapter}{\numberline {22}Hypothesis Testing}{3}{chapter.22}
+\contentsline {section}{\numberline {22.1}Z-tests}{4}{section.22.1}
+\contentsline {subsection}{\numberline {22.1.1}Null and Alternative Hypotheses}{4}{subsection.22.1.1}
+\contentsline {subsection}{\numberline {22.1.2}Significance Levels}{5}{subsection.22.1.2}
+\contentsline {subsection}{\numberline {22.1.3}Test Statistics}{7}{subsection.22.1.3}
+\contentsline {subsection}{\numberline {22.1.4}One-sided versus Two-sided tests}{9}{subsection.22.1.4}
+\contentsline {section}{\numberline {22.2}On $p$-values}{12}{section.22.2}
+\contentsline {subsection}{\numberline {22.2.1}Extraordinary Claims and $p$-values}{12}{subsection.22.2.1}
+\contentsline {subsection}{\numberline {22.2.2}Large $p$-values}{13}{subsection.22.2.2}
+\contentsline {subsection}{\numberline {22.2.3}Misconceptions about $p$-values}{13}{subsection.22.2.3}
+\contentsline {section}{\numberline {22.3}On $t$-tests}{15}{section.22.3}
+\contentsline {subsection}{\numberline {22.3.1}Estimating the Sample Variance}{16}{subsection.22.3.1}
+\contentsline {subsection}{\numberline {22.3.2}From $z$-tests to $t$-tests}{16}{subsection.22.3.2}
+\contentsline {section}{\numberline {22.4}Problems with Hypothesis Testing}{19}{section.22.4}
+\contentsline {subsection}{\numberline {22.4.1}Type I errors}{19}{subsection.22.4.1}
+\contentsline {subsection}{\numberline {22.4.2}Type II errors}{20}{subsection.22.4.2}
+\contentsline {subsection}{\numberline {22.4.3}Error Rates and the Justice System}{20}{subsection.22.4.3}
+\contentsline {section}{\numberline {22.5}Chi-square Distributions, Goodness of fit}{22}{section.22.5}
+\contentsline {subsection}{\numberline {22.5.1}Chi-Square distributions and tests of Variance}{22}{subsection.22.5.1}
+\contentsline {subsection}{\numberline {22.5.2}Chi-square distributions and $t$-distributions}{25}{subsection.22.5.2}
+\contentsline {subsection}{\numberline {22.5.3}Goodness of Fit for List Data}{26}{subsection.22.5.3}
+\contentsline {section}{\numberline {22.6}Two sample tests}{28}{section.22.6}
+\contentsline {subsection}{\numberline {22.6.1}Two sample $z$-test: known variances}{28}{subsection.22.6.1}
+\contentsline {subsection}{\numberline {22.6.2}Two sample $t$-test: unknown but same variances}{31}{subsection.22.6.2}
+\contentsline {subsection}{\numberline {22.6.3}Unknown and Different Variances}{32}{subsection.22.6.3}
+\contentsline {section}{\numberline {22.7}Summary}{34}{section.22.7}
+\contentsline {section}{\numberline {22.8}Additional Problems}{35}{section.22.8}

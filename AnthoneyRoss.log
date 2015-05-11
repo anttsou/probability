@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 MAY 2015 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 MAY 2015 23:06
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **AnthoneyRoss.tex
 (./AnthoneyRoss.tex
@@ -742,21 +742,21 @@ Writing index file AnthoneyRoss.idx
 (./AnthoneyRoss.aux (./chap_hypothesistesting2.aux))
 \openout1 = `AnthoneyRoss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 826.
-LaTeX Font Info:    ... okay on input line 826.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 826.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 815.
+LaTeX Font Info:    ... okay on input line 815.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 815.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -776,7 +776,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \everyMPtoPDFconversion=\toks48
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 826.
+Package hyperref Info: Link coloring OFF on input line 815.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -786,39 +786,39 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 826.
-LaTeX Info: Redefining \pageref on input line 826.
-LaTeX Info: Redefining \nameref on input line 826.
+LaTeX Info: Redefining \ref on input line 815.
+LaTeX Info: Redefining \pageref on input line 815.
+LaTeX Info: Redefining \nameref on input line 815.
 
 (./AnthoneyRoss.out) (./AnthoneyRoss.out)
 \@outlinefile=\write6
 \openout6 = `AnthoneyRoss.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 831.
+LaTeX Font Info:    Try loading font information for U+msa on input line 818.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 831.
+LaTeX Font Info:    Try loading font information for U+msb on input line 818.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 831.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 818.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 831.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 818.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 831.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 818.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 831.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 831.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 818.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 818.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -829,7 +829,7 @@ Non-PDF special ignored!
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 858.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 828.
  (./AnthoneyRoss.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -845,7 +845,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.965 \include{chap_hypothesistesting2}
+l.855 \include{chap_hypothesistesting2}
                                         [1]
 \openout2 = `chap_hypothesistesting2.aux'.
 
@@ -854,36 +854,36 @@ l.965 \include{chap_hypothesistesting2}
 
 
 ]
-\hspace {-3pc}\chap {Chapter } 1.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 7.
+\hspace {-3pc}\chap {Chapter } 22.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 7.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 
-Overfull \hbox (9.29999pt too wide) in paragraph at lines 32--32
+Overfull \hbox (9.29999pt too wide) in paragraph at lines 28--28
  [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
 
-Overfull \hbox (0.9271pt too wide) in paragraph at lines 43--44
+Overfull \hbox (0.9271pt too wide) in paragraph at lines 39--40
 \T1/ptm/m/n/10 claim, from find-ing out how fast Mc-Don-ald's can fill an or-de
 r, to de-ter-min-ing whether
  []
@@ -892,299 +892,299 @@ r, to de-ter-min-ing whether
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 111.
+(amsmath)                 on input line 107.
 
 [7]
-Overfull \hbox (9.29999pt too wide) in paragraph at lines 140--140
+Overfull \hbox (9.29999pt too wide) in paragraph at lines 136--136
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 <LifeSaver-eps-converted-to.pdf, id=198, 31.11626pt x 31.11626pt>
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 148.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 144.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [9 <./LifeSaver-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 176.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 176.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 172.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 191.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 191.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 187.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [10]
 
 LaTeX Warning: Reference `sec:fromstirlingtoclt' on page 11 undefined on input 
-line 202.
+line 198.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 Package epstopdf Info: Source file: <Flag.eps>
-(epstopdf)                    date: 2015-05-07 21:35:00
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 380611 bytes
 (epstopdf)             Output file: <Flag-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:30
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 23072 bytes
-(epstopdf)             Command: <repstopdf --outfile=Flag-eps-converted-to.pdf 
-Flag.eps>
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             Command: <epstopdf --outfile=Flag-eps-converted-to.pdf F
+lag.eps>
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 <Flag-eps-converted-to.pdf, id=211, 30.1125pt x 34.1275pt>
 File: Flag-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Flag-eps-converted-to.pdf>
-Package pdftex.def Info: Flag-eps-converted-to.pdf used on input line 215.
+Package pdftex.def Info: Flag-eps-converted-to.pdf used on input line 211.
 (pdftex.def)             Requested size: 30.11241pt x 34.1274pt.
  [11 <./Flag-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 221.
+(hyperref)                removing `math shift' on input line 217.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 221.
+(hyperref)                removing `math shift' on input line 217.
 
 
-Overfull \hbox (9.29999pt too wide) in paragraph at lines 232--232
+Overfull \hbox (9.29999pt too wide) in paragraph at lines 228--228
  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `math shift' on input line 234.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `math shift' on input line 234.
 
 [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 247.
+(hyperref)                removing `math shift' on input line 243.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 247.
+(hyperref)                removing `math shift' on input line 243.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `math shift' on input line 258.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `math shift' on input line 258.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 268.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 264.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [13]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 287.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 287.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 283.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
 
 
 LaTeX Warning: Reference `sec:genfnchapmotivation' on page 14 undefined on inpu
-t line 293.
+t line 289.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
 Package epstopdf Info: Source file: <Flag.eps>
-(epstopdf)                    date: 2015-05-07 21:35:00
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 380611 bytes
 (epstopdf)             Output file: <Flag-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:30
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 23072 bytes
-(epstopdf)             Command: <repstopdf --outfile=Flag-eps-converted-to.pdf 
-Flag.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             Command: <epstopdf --outfile=Flag-eps-converted-to.pdf F
+lag.eps>
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 File: Flag-eps-converted-to.pdf Graphic file (type pdf)
 <use Flag-eps-converted-to.pdf>
-Package pdftex.def Info: Flag-eps-converted-to.pdf used on input line 303.
+Package pdftex.def Info: Flag-eps-converted-to.pdf used on input line 299.
 (pdftex.def)             Requested size: 30.11241pt x 34.1274pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 306.
+(hyperref)                removing `math shift' on input line 302.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 306.
+(hyperref)                removing `math shift' on input line 302.
 
 
-Overfull \hbox (9.29999pt too wide) in paragraph at lines 317--317
+Overfull \hbox (9.29999pt too wide) in paragraph at lines 313--313
  [] 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 336.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 332.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 342.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 342.
+(hyperref)                removing `math shift' on input line 338.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 342.
+(hyperref)                removing `math shift' on input line 338.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 342.
+(hyperref)                removing `math shift' on input line 338.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 338.
 
 [16]
-Overfull \hbox (9.29999pt too wide) in paragraph at lines 351--351
+Overfull \hbox (9.29999pt too wide) in paragraph at lines 347--347
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 382.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 382.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 378.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [18]
-Overfull \hbox (9.29999pt too wide) in paragraph at lines 424--424
+Overfull \hbox (9.29999pt too wide) in paragraph at lines 420--420
  [] 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 447.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 443.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 447.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 443.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
 
@@ -1192,23 +1192,23 @@ Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 447.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 484.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 484.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 480.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
 
@@ -1217,68 +1217,68 @@ Underfull \vbox (badness 5288) has occurred while \output is active []
  [21]
 [22] [23]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 586.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 582.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
  <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 586.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 582.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [24]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 622.
+(hyperref)                removing `math shift' on input line 618.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 622.
+(hyperref)                removing `math shift' on input line 618.
 
 [25] [26]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 684.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
  <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 684.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 680.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [27]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 739.
+(hyperref)                removing `math shift' on input line 735.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 739.
+(hyperref)                removing `math shift' on input line 735.
 
 [28]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 782.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 778.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
  <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 782.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 778.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
 
@@ -1288,26 +1288,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [30]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 849.
+(hyperref)                removing `math shift' on input line 845.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 849.
+(hyperref)                removing `math shift' on input line 845.
 
 [31]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-07 21:34:59
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-09 16:03:29
+(epstopdf)                    date: 2015-05-10 22:57:08
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
-.pdf LifeSaver.eps>
-(epstopdf)             \includegraphics on input line 898.
+(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
+pdf LifeSaver.eps>
+(epstopdf)             \includegraphics on input line 894.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
  <use LifeSaver-eps-converted-to.pdf>
-Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 898.
+Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 894.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
  [32]
@@ -1315,23 +1315,23 @@ Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 898.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [33] [34] [35]) [36]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 966.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 966.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 856.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 856.
  (./AnthoneyRoss.aux (./chap_hypothesistesting2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 966.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 966.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 856.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 856.
 Package rerunfilecheck Info: File `AnthoneyRoss.out' has not changed.
-(rerunfilecheck)             Checksum: EE39AD0A0D0EDF989F3C28EC5C04ABA9;2052.
+(rerunfilecheck)             Checksum: E02669761D218533D1321EC1B0FA9A06;2105.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 966.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 856.
  ) 
 Here is how much of TeX's memory you used:
  18702 strings out of 493117
- 339732 string characters out of 6135433
- 402643 words of memory out of 5000000
+ 339830 string characters out of 6135433
+ 402677 words of memory out of 5000000
  21597 multiletter control sequences out of 15000+600000
  63096 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1354,7 +1354,7 @@ onts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
 mes/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8
 a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AnthoneyRoss.pdf (37 pages, 315783 bytes).
+Output written on AnthoneyRoss.pdf (37 pages, 315810 bytes).
 PDF statistics:
  478 PDF objects out of 1000 (max. 8388607)
  414 compressed objects within 5 object streams
