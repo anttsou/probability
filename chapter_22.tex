@@ -1,0 +1,487 @@
+\documentclass[10pt]{book}
+%%%%\usepackage{fullpage}
+\usepackage{amsmath,amsfonts,latexsym,amssymb,epsf,psfrag,afterpage,makeidx,fancyhdr,soul,paralist,graphicx,setspace,tabularx}%,multicol,multirow}
+\usepackage{tikz,tikz-qtree}
+\usepackage{wasysym}
+\usepackage[perpage,symbol]{footmisc}
+%%%%latex cls ; dvips -k -T 7in,10in -o cls.ps cls.dvi ; ps2pdf cls.ps ; gv cls.pdf
+\usepackage{hyperref}
+\usepackage{breakurl}
+
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{bm}
+\usepackage{mathrsfs}
+\usepackage{marvosym}
+\usepackage{epstopdf}
+\usepackage{tikz}
+
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+%\nofiles
+
+\pagestyle{fancyplain}
+\setlength{\paperheight}{10in}
+\setlength{\paperwidth}{7in}
+\setlength{\textwidth}{28pc}
+\setlength{\headwidth}{31pc}
+\setlength{\textheight}{49\baselineskip}
+\setlength{\oddsidemargin}{3pc}
+\setlength{\evensidemargin}{3pc}
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{3.5pc}
+\setlength{\headheight}{12pt}
+
+\setlength{\pltopsep}{6pt}
+\setlength{\plitemsep}{2pt}
+
+\setdefaultleftmargin{2pc}{1.5pc}{}{}{}{}
+
+\newcommand{\kommentar}[1]{}
+\newcommand{\comment}[1]{}
+
+\newcommand\longpage[1][1]{\enlargethispage{#1\baselineskip}}
+\newcommand\shortpage[1][1]{\enlargethispage{-#1\baselineskip}}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{Section \thesection: #1}}
+\renewcommand{\subsectionmark}[1]{\markright{Section \thesubsection: #1}}
+
+\renewcommand\footnoterule{\vspace*{-6.5pt}\hrule width 14pc height 0.5pt \vspace*{6pt}}
+\addtolength{\skip\footins}{10pt}
+
+\lhead[\fancyplain{}{\thepage\hspace{0.5pc}$\bullet$\hspace{0.5pc}\rmfamily\leftmark}]{\fancyplain{}{}}
+\rhead[\fancyplain{}{}]{\fancyplain{}{\rmfamily\rightmark\hspace{0.5pc}$\bullet$\hspace{0.5pc}\thepage}}
+\cfoot{}
+
+\newcommand{\parder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\pparder}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\mparder}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{exa}[thm]{Example}
+\newtheorem{defi}[thm]{Definition}
+
+\newtheorem{exe}[thm]{Problem}
+
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{prop}[thm]{Proposition}
+%\newtheorem{exe}[thm]{Exercise}
+%\newtheorem{exeh}[thm]{Exercise\textsuperscript{(h)}}
+%\newtheorem{exehr}[thm]{Exercise\textsuperscript{(hr)}}
+\newtheorem{que}[thm]{Question}
+\newtheorem{prob}[thm]{Problem}
+\newtheorem{soln}[thm]{Solution}
+\newtheorem{cla}{Claim}
+\newtheorem{rek}[thm]{Remark}
+
+\newcommand{\todo}[1]{\large\textbf{#1}\normalsize}
+\newcommand{\mindex}[1]{\textbf{#1}\index{#1}}
+\newcommand{\sindex}[2]{#2\index{#1!#2}}
+\newcommand{\cfindex}[1]{\index{continued fraction!#1}}
+\newcommand{\prindex}[1]{\index{probability!#1}}
+\newcommand{\faindex}[1]{\index{Fourier analysis!#1}}
+\newcommand{\rmtindex}[1]{\index{Random Matrix Theory!#1}}
+\newcommand{\rzfindex}[1]{\index{Riemann zeta function!#1}}
+\newcommand{\matindex}[1]{\index{matrices!#1}}
+\newcommand{\vindex}[1]{\index{vector!#1}}
+\newcommand{\cmindex}[1]{\index{circle method!#1}}
+\newcommand{\roindex}[1]{\index{Roth's Theorem!#1}}
+\newcommand{\nindex}{\index{NEEDS ATTENTION}}
+
+\newcommand{\lett}[2]{{\rm #1}_{#2}}
+
+\newcommand\bi{\begin{itemize}}
+\newcommand\ei{\end{itemize}}
+
+\newcommand\ben{\begin{enumerate}}
+\newcommand\een{\end{enumerate}}
+\newcommand{\ncr}[2]{{#1 \choose #2}}
+
+
+\newcommand{\cs}{\spadesuit}
+\newcommand{\cc}{\clubsuit}
+\newcommand{\cd}{\diamondsuit}
+\newcommand{\ch}{\heartsuit}
+
+\newcommand{\ctan}{{\rm ctan}}
+\newcommand{\ga}{\alpha}    %lowercase alpha
+\newcommand{\gb}{\beta}      %lowercase beta
+\newcommand{\gd}{\delta}    %lowercase delta
+\newcommand{\gep}{\epsilon}  %lowercase epsilon
+\newcommand{\G}{\Gamma}      %Capital Gamma
+\newcommand{\g}{\gamma}      %lowercase gamma
+\newcommand{\gL}{\Lambda}    %capital lamda
+\newcommand{\gl}{\lambda}    %lowercase lambda
+\newcommand{\gt}{\theta}    %lowercase theta
+
+\newcommand{\twocase}[5]{#1 \begin{cases} #2 & \text{{\rm #3}}\\ #4
+&\text{{\rm #5}} \end{cases}  }
+
+\newcommand{\threecase}[7]{#1 \begin{cases} #2 & \text{\rm #3}\\ #4
+&\text{\rm #5}\\ #6 & \text{\rm #7} \end{cases}  }
+
+
+%\newcommand{\prob}[1]{{\rm Prob}(#1)}
+
+\newcommand{\intii}{\int_{-\infty}^\infty}
+\newcommand{\intzi}{\int_{0}^\infty}
+
+
+\newcommand\be{\begin{equation*}}
+\newcommand\ee{\end{equation*}}
+\newcommand\bea{\begin{eqnarray*}}
+\newcommand\eea{\end{eqnarray*}}
+
+\newcommand\bel{\begin{equation}}
+\newcommand\eel{\end{equation}}
+\newcommand\beal{\begin{eqnarray}}
+\newcommand\eeal{\end{eqnarray}}
+\newcommand\bdm{\begin{displaymath}}
+\newcommand\edm{\end{displaymath}}
+
+\newcommand{\fof}{\frac{1}{4}}  %oneforth
+\newcommand{\foh}{\frac{1}{2}}  %onehalf
+\newcommand{\fot}{\frac{1}{3}}  %onethird
+
+\newcommand{\<}{\left\langle}
+\renewcommand{\>}{\right\rangle}
+
+
+\newcommand{\mattwo}[4]
+{\left(\begin{array}{cc}
+                        #1  & #2   \\
+                        #3 &  #4
+                          \end{array}\right) }
+
+\newcommand{\matthree}[9]
+{\left(\begin{array}{ccc}
+                        #1  & #2 & #3  \\
+                        #4 &  #5 & #6 \\
+                        #7 &  #8 & #9
+                          \end{array}\right) }
+
+\newcommand{\vectwo}[2]
+{\left(\begin{array}{c}
+                        #1    \\
+                        #2
+                          \end{array}\right) }
+
+
+\newcommand{\vecfive}[5]
+{\left(\begin{array}{c}
+                        #1    \\
+                        #2\\
+                        #3 \\
+                        #4 \\
+                        #5
+                          \end{array}\right) }
+
+
+\newcommand{\dettwo}[4]
+{\left|\begin{array}{cc}
+                        #1  & #2   \\
+                        #3 &  #4
+                          \end{array}\right| }
+
+\newcommand{\detthree}[9]
+{\left|\begin{array}{ccc}
+                        #1  & #2 & #3  \\
+                        #4 &  #5 & #6 \\
+                        #7 &  #8 & #9
+                          \end{array}\right| }
+
+\newcommand{\unif}[1]{{\rm Unif}(0,#1)}
+\newcommand{\expd}[1]{{\rm Exp}(#1)}
+\newcommand{\err}[1]{{\rm Err}\left(#1\right)}
+
+
+
+\newcommand{\mmpar}[1]{%
+\vadjust{\smash{\llap{\parbox[t]{\marginparwidth}{\vspace{-0.3in}\hspace{1.268in} #1}\kern .1in}}}}
+\newcommand{\mmpard}[1]{%
+\vadjust{\smash{\llap{\parbox[t]{\marginparwidth}{\vspace{-0.2in}\hspace{1.268in} #1}\kern .1in}}}}
+\newcommand{\mmpardd}[1]{%
+\vadjust{\smash{\llap{\parbox[t]{\marginparwidth}{\vspace{-0.1in}\hspace{1.268in} #1}\kern .1in}}}}
+
+\providecommand{\abs}[1]{\lvert#1\rvert}
+
+%\sodef\chap{}{.153em}{0pt}{.85em}
+\sodef\chap{}{0pt}{0pt}{0pt}
+\sodef\chapa{}{.1em}{0.5em}{.85em}
+\sodef\chapb{}{.123em}{0.5em}{.85em}
+
+\makeatletter
+\renewcommand\@dotsep{1000}
+\renewcommand*\l@section{\setlength{\baselineskip}{15pt}\@dottedtocline{1}{1.5em}{2.3em}}
+\renewcommand*\l@subsection{\setlength{\baselineskip}{12pt}\@dottedtocline{2}{3.8em}{3.2em}}
+\renewcommand\@chapapp{\hspace{-3pc}\chap{Chapter }}
+
+\def\@makechapterhead#1{%
+  \vspace*{7.5pc}%
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \hbox to \hsize{\raisebox{0pt}{\huge\bfseries\@chapapp\space\thechapter}\hspace{1pc}\leaders\hrule height 0.5pt depth 0pt\hfill}%\rule{50cm}{0.5pt}
+        \par\nobreak
+        \vskip 3pc
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \hspace{-3pc}\huge\itshape #1\par\nobreak
+    \vskip 2pc
+  }}
+
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \vspace*{7.5pc}{\hbox to \hsize{\raisebox{0pt}{\hspace{-3pc}\huge\bfseries\chap{Contents}}\hspace{1pc}\leaders\hrule height 0.5pt depth 0pt\hfill}\par\nobreak\vskip 2.2pc}\vspace{1pc} % added the last space to make first contents page nice
+    \thispagestyle{empty}
+    \@mkboth{Contents}{Contents}
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    }
+
+%\renewcommand{\section}{\font\myfont=anttb at 14pt\@startsection{section}{1}{-3pc}{-18pt}{12pt}{\myfont}}
+%\renewcommand{\subsection}{\font\myfont=anttb at 12pt\@startsection{subsection}{2}{-3pc}{-12pt}{6pt}{\myfont}}
+\def\@fancyhead#1#2#3#4#5{\@rodd\hbox to\headwidth{\fancy@reset
+  \@fancyvbox\headheight{\hbox
+    {\rlap{\parbox[b]{\headwidth}{\raggedright#2}}\hfill
+      \parbox[b]{\headwidth}{\centering#3}\hfill
+      \llap{\parbox[b]{\headwidth}{\raggedleft#4}}}}}\@lodd}
+%\renewcommand{\headrule}{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+%    \hrule\@height\headrulewidth\@width 30pc\vskip-\headrulewidth}}
+\renewenvironment{theindex}
+               {\if@twocolumn
+                  \@restonecolfalse
+                \else
+                  \@restonecoltrue
+                \fi
+                \columnseprule \z@
+                \columnsep 35\p@
+                \twocolumn[\vspace*{8.4pc}\hspace{0.0pc}\parbox{31pc}{\hbox to \hsize{\raisebox{0pt}{\hspace{0pc}\huge\bfseries\chap{Index}}\hspace{1pc}\leaders\hrule height 0.5pt depth 0pt\hfill}\par\nobreak\vskip 4pc}]
+                \addcontentsline{toc}{chapter}{\numberline{}Index}
+                \@mkboth{\indexname}%
+                        {\indexname}%
+                \thispagestyle{plain}\parindent\z@
+                \parskip\z@ \@plus .3\p@\relax
+                \let\item\@idxitem}
+               {\if@restonecol\onecolumn\else\clearpage\fi}
+\makeatother
+
+%\newcommand{\nb}{\marginpar[\hspace{1.299in}\includegraphics{Flag}]{}}
+\newcommand{\ex}{\mmpar{\includegraphics{LifeSaver}}}
+\newcommand{\exd}{\mmpard{\includegraphics{LifeSaver}}}
+\newcommand{\exdd}{\mmpardd{\includegraphics{LifeSaver}}}
+\newcommand{\nb}{\mmpar{\includegraphics{Flag}}}
+\newcommand{\nbd}{\mmpard{\includegraphics{Flag}}}
+\newcommand{\info}{\mmpar{\includegraphics{Wave}}}
+\newcommand{\infod}{\mmpard{\includegraphics{Wave}}}
+%\newcommand{\task}{\marginpar[]{\hspace{1.4in}\large{\boxed{\textrm{T}}}}}
+%\newcommand{\task}{\marginpar{\vspace{-0.2in}\hspace{1.38in}\includegraphics[scale=1.5]{hiker}}}
+\newcommand{\task}{\mmpar{\vspace{-0.2in}\hspace{0.07in}\includegraphics[scale=1.5]{hiker}}}
+
+
+\newcommand{\lheq}{\stackrel{\textrm{l'H}}{=}}
+
+\newcommand{\contd}{\emph{(continued)}}
+
+\def\putunder#1#2{\mathrel{
+\setbox0=\hbox{#1}\setbox1=\hbox{\scriptsize #2}
+\dimen0=-0.5\wd0 \advance\dimen0 by -0.5\wd1
+\dimen1=0.5\wd0 \advance\dimen1 by -0.5\wd1
+\hbox{\box0\kern\dimen0%
+\vbox to 0pt {\hbox{\lower 0.7em \box1}\vss}%
+\kern\dimen1}
+}}
+
+\def\putunderl#1#2{\mathrel{
+\setbox0=\hbox{#1}\setbox1=\hbox{\scriptsize #2}
+\dimen0=-0.5\wd0 \advance\dimen0 by -0.5\wd1
+\dimen1=0.5\wd0 \advance\dimen1 by -0.5\wd1
+\hbox{\box0\kern\dimen0%
+\vbox to 0pt {\hbox{\lower 0.4em \box1}\vss}%
+\kern\dimen1}
+}}
+
+\def\putunderlc#1#2{\mathrel{
+\setbox0=\hbox{#1}\setbox1=\hbox{\scriptsize #2}
+\dimen0=-0.5\wd0 \advance\dimen0 by -0.5\wd1
+\dimen1=0.5\wd0 \advance\dimen1 by -0.5\wd1
+\hbox{\box0\kern\dimen0%
+\vbox to 0pt {\hbox{\lower 0.6
+em \box1}\vss}%
+\kern\dimen1}
+}}
+
+\def\putunderla#1#2{\mathrel{
+\setbox0=\hbox{#1}\setbox1=\hbox{\scriptsize #2}
+\dimen0=-0.5\wd0 \advance\dimen0 by -0.5\wd1
+\dimen1=0.5\wd0 \advance\dimen1 by -0.5\wd1
+\hbox{\box0\kern\dimen0%
+\vbox to 0pt {\hbox{\raise 0.2em \box1}\vss}%
+\kern\dimen1}
+}}
+
+\def\putover#1#2{\mathrel{
+\setbox0=\hbox{#1}\setbox1=\hbox{\scriptsize #2}
+\dimen0=-0.5\wd0 \advance\dimen0 by -0.5\wd1
+\dimen1=0.5\wd0 \advance\dimen1 by -0.5\wd1
+\hbox{\box0\kern\dimen0%
+\vbox to 0pt {\vss\hbox{\raise 0.7em \box1}}%
+\kern\dimen1}
+}}
+
+\def\mylim#1{\putunderl{$\lim$}{$#1$}}
+\def\mylima#1{\putunderla{$\lim$}{$#1$}}
+\def\mylimc#1{\putunderlc{$\lim$}{$#1$}}
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\long\def\symbolfootnote[#1]#2{\begingroup%
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+\def\leaderfill\leaders\hbox to 1em{\hss.\hss\hfill}
+
+
+\DeclareMathAlphabet{\mathbi}{\encodingdefault}{\rmdefault}{\bfdefault}{\itdefault}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\lnbold}{\mathbf{ln}}
+
+\newcommand{\pr}[1]{{\rm Prob}\left({#1}\right)}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\Z}{\ensuremath{\mathbb{Z}}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\rea}{\ensuremath{\textrm{Re}}}
+\newcommand{\ima}{\ensuremath{\textrm{Im}}}
+\newcommand{\Rea}{\ensuremath{\textrm{Re }}}
+\newcommand{\Ima}{\ensuremath{\textrm{Im }}}
+\newcommand{\E}{{\mathbb E}} % expectation
+\newcommand{\I}{1\!\!1} % indicator function
+
+\def\indistrHIGH{\,{\buildrel d \over \rightarrow}\,}
+\def\indistr{\,{\indistrHIGH}\,}
+
+\def\inDISTRHIGH{\,{\buildrel D \over \rightarrow}\,}
+\def\inDISTR{\,{\inDISTRHIGH}\,}
+
+\def\inPROBHIGH{\,{\buildrel P \over \rightarrow}\,}
+\def\inPROB{\,{\inprobHIGH}\,}
+
+
+\def\inprobHIGH{\,{\buildrel p \over \rightarrow}\,}
+\def\inprob{\,{\inprobHIGH}\,}
+
+\def\inalmostsureHIGH{\,{\buildrel a.s. \over \rightarrow}\,}
+\def\inalmostsure{\,{\inalmostsureHIGH}\,}
+
+
+\newcommand{\N}{\mathbb{N}}
+%\newcommand{\R}{\mathbb{R}}
+%\newcommand{\C}{\mathbb{C}}
+%\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+%\newcommand{\Re}{{\mathfrak{Re}}}
+%\newcommand{\Im}{{\mathfrak{Im}}}
+
+\newcommand{\qed}{\hfill $\Box$\\ }
+\newcommand{\sol}{\noindent \emph{Solution:\ }}
+\newcommand{\trm}[1]{\textrm{#1}}
+\newcommand{\tbf}[1]{\textbf{#1}}
+
+%%%%%NEW COMMANDS
+
+\newcommand{\keybox}[1]{\begin{center}{\boxed{\large #1}}\end{center}}
+\newcommand{\seq}[1]{\{#1_n\}_{n=1}^\infty}
+
+\newcommand{\proof}{\noindent \emph{Proof:\ }}
+
+\newenvironment{fminipage}%
+{\begin{Sbox}\begin{minipage}}%
+{\end{minipage}\end{Sbox}\fbox{\TheSbox}}
+
+\newcommand{\bigbox}[1]{
+%\begin{table}[h]
+\begin{center}
+\fbox{%
+\begin{minipage}{\textwidth}
+#1
+\end{minipage}
+}
+\end{center}
+%\end{table}
+}
+
+\widowpenalty=10000
+\clubpenalty=250
+
+\makeindex
+
+\begin{document}
+
+\chapter{Hypothesis Testing}
+
+\noindent \texttt{\emph{Ernest Rutherford:} If your experiment needs statistics, you ought to have done a better experiment.}\\
+
+In 2003--2004 I participated in a data analysis seminar at Ohio State. I remember one speaker mentioning that every day weather satellites beam down more information than is in the entire library of Congress, and forecasters have only a few hours to analyze the data and make their predictions. The wealth of data available is one of the boons of the twenty-first century, as well as one of its greatest challenges. We ignore this data at our own peril. Frequently we have mathematical models for problems of interest, ranging from the weather to the probable travel plans months in advance to choosing a professional sports team to judging the financial impact of regulations and laws to a description of the fundamental particles and forces in physics. Frequently we can gather data related to these issues; the question is whether or not the data supports our beliefs, or contradicts it, and how we make that decision.
+
+This leads us to the very important field of model testing, an important part of \textbf{statistics}. As this is a probability book and not a statistics one, our treatment must be brief. I strongly urge you to take a statistics course in the future. When you do,  you'll encounter many different tests to determine whether or not the data supports your conjecture. Why can we trust these tests? Probability! The tests in this chapter are consequences of many of our probability results and theorems.
+
+\tikzstyle{level 1}=[level distance=5cm, sibling distance=3cm]
+\tikzstyle{level 2}=[level distance=3.5cm, sibling distance=2cm]
+
+% Define styles for bags and leafs
+\tikzstyle{bag} = [text width=4em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+
+\pagenumbering{roman}
+\markboth{}{}
+
+%\include{problifesavertitle}
+%\include{problifesavertitlelong}
+
+\tableofcontents
+\setlength{\baselineskip}{12pt}
+
+%\include{problifesaverNoteToReviewers}
+%\include{problifesaverchTofC}
+
+%\include{problifesaverch0}
+
+% MUST FIX THIS LATER!!!!%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%\setlength{\baselineskip}{12pt}
+%%%%\include{ch0a}
+
+\setlength{\oddsidemargin}{3pc}
+\setlength{\evensidemargin}{3pc}
+\setlength{\textwidth}{28pc}
+%\include{problifesaveracknowl}
+%\include{blpage}
+%\include{problifesavertitleshort}
+%\include{blpage}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\setcounter{chapter}{0}
+\markboth{}{}
+\setlength{\baselineskip}{12pt}
+\setlength{\oddsidemargin}{3pc}
+\setlength{\evensidemargin}{3pc}
+\setlength{\textwidth}{28pc}
+
+
+
+\end{document}
+
+

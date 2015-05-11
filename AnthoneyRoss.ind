@@ -1,0 +1,84 @@
+\begin{theindex}
+
+  \item $\alpha $-levels, \hyperpage{5}
+  \item $p$-value, \hyperpage{12}
+  \item $t$-distribution, \hyperpage{17}
+  \item $z$-test, \hyperpage{9}
+
+  \indexspace
+
+  \item alpha-level, \hyperpage{5}
+  \item alternative hypothesis, \hyperpage{4}
+
+  \indexspace
+
+  \item Central Limit Theorem, \hyperpage{7}
+  \item chi-square distribution, \hyperpage{22}
+    \subitem density function, \hyperpage{22}
+  \item critical region, \hyperpage{6}
+  \item critical value, \hyperpage{6}, \hyperpage{9}
+
+  \indexspace
+
+  \item degrees of freedom, \hyperpage{16}
+
+  \indexspace
+
+  \item hypothesis testing, \hyperpage{4}
+    \subitem $p$-value, \hyperpage{9}
+    \subitem $z$-statistic, \hyperpage{8}
+    \subitem $z$-test, \hyperpage{9}
+    \subitem critical value, \hyperpage{9}
+    \subitem one sample $t$-test, \hyperpage{17}
+    \subitem two sample $t$-test
+      \subsubitem same variance, \hyperpage{32}
+      \subsubitem unequal variance, \hyperpage{33}
+    \subitem two tample $z$-test, \hyperpage{29}
+
+  \indexspace
+
+  \item null hypothesis, \hyperpage{4}
+
+  \indexspace
+
+  \item one sample $t$-test, \hyperpage{17}
+  \item one-sided hypothesis tests, \hyperpage{9}
+
+  \indexspace
+
+  \item p-value, \hyperpage{9}, \hyperpage{13}
+  \item pooled variance, \hyperpage{31}
+
+  \indexspace
+
+  \item sample variance, \hyperpage{16}
+    \subitem distribution of sample variance, \hyperpage{23}
+  \item significance level, \hyperpage{5}
+
+  \indexspace
+
+  \item t-distribution, \hyperpage{25}
+  \item test statistic, \hyperpage{7}
+  \item two sample $t$-test, \hyperpage{32, 33}
+  \item two sample $z$-test, \hyperpage{29}
+  \item two-sided hypothesis tests, \hyperpage{9}
+  \item Type I error, \hyperpage{19}
+    \subitem Type I error rate, \hyperpage{20}
+  \item Type II error, \hyperpage{19, 20}
+  \item Type II error rate, \hyperpage{20}
+
+  \indexspace
+
+  \item unbiased estimator, \hyperpage{16}
+
+  \indexspace
+
+  \item variance
+    \subitem chi-square test of variance, \hyperpage{24}
+    \subitem sample variance, \hyperpage{16}
+
+  \indexspace
+
+  \item Welch's $t$-test, \hyperpage{33}
+
+\end{theindex}
