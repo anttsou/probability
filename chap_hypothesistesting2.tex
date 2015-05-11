@@ -16,7 +16,6 @@ Our point below is to introduce you to some of the major tests, and the reasons 
 %lower case for index entries (except for proper nouns, etc.), don't use $$ for beginning of entry
 %setlength stuff for margins
 
-
 We first describe the null and alternative hypothesis, then talk about significance levels and test statistics, and end with a discussion of one versus two-sided tests. As it's easier to learn material through an example than just pages of theory after theory, we introduce the $z$-statistic and the $z$-test, and frame our discussion and examples through this.
 
 \bigbox{\textbf{Takeaways for the section:}
@@ -27,9 +26,6 @@ We first describe the null and alternative hypothesis, then talk about significa
 \end{itemize}
 }
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Null and Alternative Hypotheses}
 
 Suppose McDonald's has come out with a new ad campaign, boasting that the mean time it takes them to fill a typical order is 45 seconds. Clearly every order is different, so there will be some variation around this mean. Being the skeptic you are, you make some observations the next time you visit McDonald's, and in a sample of 20 orders you find the average service time to be 48 seconds with a standard deviation of 8 seconds. Given this data, do you believe McDonald's claim?
@@ -488,6 +484,11 @@ If the college wanted a Type II error rate of 0.05, what should their threshold 
 
 Just for fun, what's the Type I error rate in the case where the threshold is a WBC count of 8540?  That's the probability that a healthy person has a WBC count over 8540, which is $1-\Phi(1.54)\approx 0.062$.  Again, we see the general phenomenon that lowering the incidence of Type II errors increases the likelihood of Type I errors.
 
+\subsection{Power} \label{sec:Power}
+
+When the null hypothesis actually \emph{is} false, we want our test to be strong enough to reject it. Therefore, we'd like to know how likely we are to succeed. The \textbf{power} of the test gives us a way to think about that. The power of a test is the probability that it correctly rejects a false null hypothesis, so, when the power is high, we can be confident that we've looked hard enough. We know that $\beta$ is the probability that a test fails to reject a false null hypothesis, so the power of the test is the probability that it succeeds in rejecting the false null hypothesis: $1 - \beta$.
+
+Whenever a study fails to reject its null hypothesis, the test's power comes into question. Was the sample size big enough to detect an effect had there been one? Might we have missed an effect large enough to be interesting just because we failed to gather sufficient data or because there was too much variability in the data we could gather? For example, 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Chi-square Distributions, Goodness of fit} \label{sec:ChiSquare}
