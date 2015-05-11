@@ -492,6 +492,14 @@ Clearly, the lower the power of our test, the more likely we are to make a Type 
 
 For example, suppose we want to know if 30 passengers on an airplane enjoy a new lunch menu item, fish, more or less than the typically offered meal of steak (assuming no one is vegetarian). The null hypothesis would be that there is no difference in enjoyment. Suppose 25 passengers do enjoy the fish more or less than the steak, but 5 are indifferent. If we have a small sample size of say 4 and happen to select only among the 5 who are indifferent, then we will fail to reject the null hypothesis even though it is clearly false for our population of 30 passengers. If we sampled 10 passengers, we will already detect the difference since only 5 are indifferent. Thus, one way to increase power is to increase sample size. By the end of this chapter, we will know a few ways of increasing power.
 
+\subsection{Effect Size} \label{sec:Effect Size}
+
+As established in the previous section, the power of a test is a quantifier of how far the truth lies from our hypothesized value. This distance between the null value, $p_0$, and the truth, $p$, is the effect size. Since we don't know the true value, however, we estimate the effect size as the difference between the null and observed values.
+
+Effect size is crucial to understanding the power of a hypothesis test. A large effect means a smaller Type II error, and thus a larger power. Additionally, a small effect means a larger Type II error and therefore a smaller power. Therefore, know the effect size and sample size helps us determine power. The issue here is that, when designing tests, we won't yet know the observed values and therefore can't calculate the effect size. This means we have to try several different effect sizes and look at their consequences. When researchers design a study, they often know what effect size matters to their conclusions and use that to estimate $n$, the sample size they'll need.
+
+Effect size is always a concern whenever we use statistical inference. The calculations are often dependent upon certain situations and the appropriate statistics, but generally the concepts remain the same.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Chi-square Distributions, Goodness of fit} \label{sec:ChiSquare}
 
