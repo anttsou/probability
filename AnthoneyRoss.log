@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 MAY 2015 00:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 MAY 2015 01:36
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **AnthoneyRoss.tex
 (./AnthoneyRoss.tex
@@ -910,13 +910,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 <LifeSaver-eps-converted-to.pdf, id=208, 31.11626pt x 31.11626pt>
@@ -932,13 +932,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 168.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -952,13 +952,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -977,13 +977,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
  []
 
 Package epstopdf Info: Source file: <Flag.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 380611 bytes
 (epstopdf)             Output file: <Flag-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 23072 bytes
-(epstopdf)             Command: <epstopdf --outfile=Flag-eps-converted-to.pdf F
-lag.eps>
+(epstopdf)             Command: <repstopdf --outfile=Flag-eps-converted-to.pdf 
+Flag.eps>
 (epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 <Flag-eps-converted-to.pdf, id=221, 30.1125pt x 34.1275pt>
@@ -1037,13 +1037,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1057,13 +1057,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1082,13 +1082,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--294
  []
 
 Package epstopdf Info: Source file: <Flag.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 380611 bytes
 (epstopdf)             Output file: <Flag-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 23072 bytes
-(epstopdf)             Command: <epstopdf --outfile=Flag-eps-converted-to.pdf F
-lag.eps>
+(epstopdf)             Command: <repstopdf --outfile=Flag-eps-converted-to.pdf 
+Flag.eps>
 (epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
 File: Flag-eps-converted-to.pdf Graphic file (type pdf)
@@ -1148,13 +1148,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--373
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1173,13 +1173,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 437--438
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1187,23 +1187,19 @@ File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 439.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20]
+ [20]
 Underfull \hbox (badness 10000) in paragraph at lines 474--475
 
  []
 
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1211,26 +1207,20 @@ File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 476.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
-
-Underfull \vbox (badness 5288) has occurred while \output is active []
-
- [21]
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
- [22]
-[23] [24]
+ [21] [22] [23] [24]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 591.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
- <use LifeSaver-eps-converted-to.pdf>
+
+<use LifeSaver-eps-converted-to.pdf>
 Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 591.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
@@ -1245,13 +1235,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [26] [27]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 689.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1270,13 +1260,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [29]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 787.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1284,24 +1274,28 @@ File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 787.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [30]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 854.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 854.
-
 [31]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 854.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 854.
+
+[32]
 Package epstopdf Info: Source file: <LifeSaver.eps>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 386015 bytes
 (epstopdf)             Output file: <LifeSaver-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-05-10 22:57:08
+(epstopdf)                    date: 2015-05-10 22:55:53
 (epstopdf)                    size: 25592 bytes
-(epstopdf)             Command: <epstopdf --outfile=LifeSaver-eps-converted-to.
-pdf LifeSaver.eps>
+(epstopdf)             Command: <repstopdf --outfile=LifeSaver-eps-converted-to
+.pdf LifeSaver.eps>
 (epstopdf)             \includegraphics on input line 903.
 Package epstopdf Info: Output file is already uptodate.
 File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
@@ -1309,11 +1303,14 @@ File: LifeSaver-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: LifeSaver-eps-converted-to.pdf used on input line 903.
 
 (pdftex.def)             Requested size: 31.11617pt x 31.11617pt.
- [32] [33] [34] [35]) [36]
+ [33]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34] [35] [36]) [37]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 728.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 728.
-
-(./AnthoneyRoss.aux (./chap_hypothesistesting2.aux))
+ (./AnthoneyRoss.aux (./chap_hypothesistesting2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 728.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 728.
 Package rerunfilecheck Info: File `AnthoneyRoss.out' has not changed.
@@ -1325,13 +1322,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 728.
  ) 
 Here is how much of TeX's memory you used:
- 18708 strings out of 493117
- 339930 string characters out of 6135433
- 402765 words of memory out of 5000000
+ 18710 strings out of 493117
+ 339948 string characters out of 6135433
+ 402767 words of memory out of 5000000
  21601 multiletter control sequences out of 15000+600000
  63096 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,54p,1755b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,1755b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1350,10 +1347,10 @@ onts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
 mes/utmbi8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8
 a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AnthoneyRoss.pdf (37 pages, 318081 bytes).
+Output written on AnthoneyRoss.pdf (38 pages, 319549 bytes).
 PDF statistics:
- 488 PDF objects out of 1000 (max. 8388607)
- 424 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
  255 words of extra memory for PDF output out of 10000 (max. 10000000)
 
